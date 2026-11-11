@@ -1,6 +1,6 @@
 # MacTweaks
 
-Vier kleine, kostenlose Apps, die deinen Mac angenehmer machen: bessere Tastenkürzel, ein aufgeräumter Home-Ordner, ein KI-Assistent und eine Dynamic Island für die Notch. Alle sind auf Deutsch, laufen still in der Menüleiste und sind Open Source (MIT).
+Fünf kleine, kostenlose Apps, die deinen Mac angenehmer machen: bessere Tastenkürzel, ein aufgeräumter Home-Ordner, ein KI-Assistent, eine Dynamic Island für die Notch und eine aufgeräumte Menüleiste samt Dock. Alle sind auf Deutsch, laufen still in der Menüleiste und sind Open Source (MIT).
 
 | App | Wofür | macOS | Mac | Claude-Abo |
 |---|---|---|---|---|
@@ -8,6 +8,7 @@ Vier kleine, kostenlose Apps, die deinen Mac angenehmer machen: bessere Tastenk�
 | [**TidyMac**](#tidymac) | Dateien aufräumen | 15 oder neuer | Apple Silicon | optional |
 | [**MacBuddy**](#macbuddy) | KI-Assistent | 26 oder neuer | Apple Silicon | nötig |
 | [**NotchIsland**](#notchisland) | Notch als Dynamic Island | 14 oder neuer | Apple Silicon und Intel | nicht nötig |
+| [**MenuTidy**](#menutidy) | Menüleiste und Dock aufräumen | 27 oder neuer | Apple Silicon | nicht nötig |
 
 ## Alle auf einmal installieren
 
@@ -97,6 +98,19 @@ Nutzt Claude über dein eigenes Claude-Abo (Pro oder Max) und das offizielle Pro
 Am schönsten auf einem MacBook mit Notch. Ohne Notch erscheint die Island oben mittig.
 
 [Download](https://github.com/Vyp3er/NotchIsland/releases/latest) · [Installationsanleitung](https://github.com/Vyp3er/NotchIsland/blob/main/INSTALLATION.md) · [Quellcode](https://github.com/Vyp3er/NotchIsland)
+
+## MenuTidy
+
+**Nichts verschwindet mehr hinter der Notch.** MenuTidy sortiert die Icons deiner Menüleiste in drei Bereiche: *Sichtbar*, *Versteckt* (ein Klick auf ‹ klappt sie aus) und *Immer versteckt* (⌥-Klick, eigene Leiste unter der Menüleiste). Dazu räumt es das Dock auf.
+
+- **Notch-Warnung:** zeigt, welche Icons hinter der Notch landen, und versteckt auf Wunsch die unwichtigsten automatisch
+- **Layout-Editor:** Apps per Drag & Drop zwischen die Bereiche ziehen; Profile wechseln je nach Monitor, App oder Akku, auch per Kurzbefehl für Fokus-Modi
+- **Vorschläge:** zählt lokal, welche Icons du anklickst, und schlägt vor, was weg kann
+- **Dock-Aufräumer:** Apps, die du lange nicht geöffnet hast, wandern ins Dock-Archiv und kommen mit einem Klick zurück, mit Backup und „Rückgängig“
+
+Braucht macOS 27 und die Berechtigung Bedienungshilfen. Noch nicht im Installationsskript: MenuTidy baust du mit Xcode 27 selbst, die Anleitung erklärt die zwei Befehle.
+
+[Installationsanleitung](https://github.com/Vyp3er/MenuTidy/blob/main/INSTALLATION.md) · [Quellcode](https://github.com/Vyp3er/MenuTidy)
 
 ---
 
