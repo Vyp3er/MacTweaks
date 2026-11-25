@@ -1,6 +1,6 @@
 # MacTweaks
 
-Fünf kleine, kostenlose Apps, die deinen Mac angenehmer machen: bessere Tastenkürzel, ein aufgeräumter Home-Ordner, ein KI-Assistent, eine Dynamic Island für die Notch und eine aufgeräumte Menüleiste samt Dock. Alle sind auf Deutsch, laufen still in der Menüleiste und sind Open Source (MIT).
+Sechs kleine, kostenlose Apps, die deinen Mac angenehmer machen: bessere Tastenkürzel, ein aufgeräumter Home-Ordner, ein KI-Assistent, eine Dynamic Island für die Notch, eine aufgeräumte Menüleiste samt Dock und Windows-Programme wie Steam auf dem Mac. Alle sind auf Deutsch und Open Source (MIT), die meisten laufen still in der Menüleiste.
 
 | App | Wofür | macOS | Mac | Claude-Abo |
 |---|---|---|---|---|
@@ -9,6 +9,7 @@ Fünf kleine, kostenlose Apps, die deinen Mac angenehmer machen: bessere Tastenk
 | [**MacBuddy**](#macbuddy) | KI-Assistent | 26 oder neuer | Apple Silicon | nötig |
 | [**NotchIsland**](#notchisland) | Notch als Dynamic Island | 14 oder neuer | Apple Silicon und Intel | nicht nötig |
 | [**MenuTidy**](#menutidy) | Menüleiste und Dock aufräumen | 27 oder neuer | Apple Silicon | nicht nötig |
+| [**Kelter**](#kelter) | Windows-Programme und Spiele | 27 oder neuer | Apple Silicon | nicht nötig |
 
 ## Alle auf einmal installieren
 
@@ -111,6 +112,19 @@ Am schönsten auf einem MacBook mit Notch. Ohne Notch erscheint die Island oben 
 Braucht macOS 27 und die Berechtigung Bedienungshilfen. Noch nicht im Installationsskript: MenuTidy baust du mit Xcode 27 selbst, die Anleitung erklärt die zwei Befehle.
 
 [Installationsanleitung](https://github.com/Vyp3er/MenuTidy/blob/main/INSTALLATION.md) · [Quellcode](https://github.com/Vyp3er/MenuTidy)
+
+## Kelter
+
+**Windows-Programme wie Steam auf dem Mac, ohne virtuelle Maschine.** Kelter installiert Windows-Programme über Wine, jedes in seiner eigenen „Bottle“, und kümmert sich um Grafik, Controller und Logs. So läuft Steam samt Spielen wie Brawlhalla direkt auf dem Mac.
+
+- **Katalog:** Steam, Epic Games, GOG Galaxy, Battle.net, Ubisoft Connect und EA app mit einem Klick, immer mit dem offiziellen Installer des Anbieters
+- **Meine Apps:** Starten und Beenden, Status, CPU und RAM, Logs mit verständlichen Hinweisen (Anti-Cheat, fehlende DLLs, Abstürze)
+- **Grafik:** DXMT (Direct3D über Metal), DXVK oder WineD3D, umschaltbar pro Bottle und pro Spiel, dazu ein FPS-Overlay
+- **Spiele und Controller:** installierte Steam-Spiele direkt aus Kelter starten, Controller live testen
+
+Braucht macOS 27, Apple Silicon und Rosetta 2. Wine und die Grafik-Übersetzer lädt Kelter beim ersten Start (rund 260 MB). Spiele mit Kernel-Anti-Cheat laufen nicht, Kelter umgeht keinen Anti-Cheat. Noch nicht im Installationsskript: Kelter baust du mit Xcode 27 selbst, die Anleitung erklärt die zwei Befehle.
+
+[Installationsanleitung](https://github.com/Vyp3er/Kelter/blob/main/INSTALLATION.md) · [Quellcode](https://github.com/Vyp3er/Kelter)
 
 ---
 
