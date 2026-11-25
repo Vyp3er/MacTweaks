@@ -1,6 +1,6 @@
 # MacTweaks
 
-Sechs kleine, kostenlose Apps, die deinen Mac angenehmer machen: bessere Tastenkürzel, ein aufgeräumter Home-Ordner, ein KI-Assistent, eine Dynamic Island für die Notch, eine aufgeräumte Menüleiste samt Dock und Windows-Programme wie Steam auf dem Mac. Alle sind auf Deutsch und Open Source (MIT), die meisten laufen still in der Menüleiste.
+Sieben kleine, kostenlose Apps, die deinen Mac angenehmer machen: bessere Tastenkürzel, ein aufgeräumter Home-Ordner, ein KI-Assistent, eine Dynamic Island für die Notch, eine aufgeräumte Menüleiste samt Dock, Windows-Programme wie Steam auf dem Mac und ein Converter für Dateien und Links. Alle sind auf Deutsch und Open Source (MIT), die meisten laufen still in der Menüleiste.
 
 | App | Wofür | macOS | Mac | Claude-Abo |
 |---|---|---|---|---|
@@ -10,6 +10,7 @@ Sechs kleine, kostenlose Apps, die deinen Mac angenehmer machen: bessere Tastenk
 | [**NotchIsland**](#notchisland) | Notch als Dynamic Island | 14 oder neuer | Apple Silicon und Intel | nicht nötig |
 | [**MenuTidy**](#menutidy) | Menüleiste und Dock aufräumen | 27 oder neuer | Apple Silicon | nicht nötig |
 | [**Kelter**](#kelter) | Windows-Programme und Spiele | 27 oder neuer | Apple Silicon | nicht nötig |
+| [**DropConvert**](#dropconvert) | Dateien umwandeln und Links laden | 26 oder neuer | Apple Silicon | nicht nötig |
 
 ## Alle auf einmal installieren
 
@@ -125,6 +126,19 @@ Braucht macOS 27 und die Berechtigung Bedienungshilfen. Noch nicht im Installati
 Braucht macOS 27, Apple Silicon und Rosetta 2. Wine und die Grafik-Übersetzer lädt Kelter beim ersten Start (rund 260 MB). Spiele mit Kernel-Anti-Cheat laufen nicht, Kelter umgeht keinen Anti-Cheat. Noch nicht im Installationsskript: Kelter baust du mit Xcode 27 selbst, die Anleitung erklärt die zwei Befehle.
 
 [Installationsanleitung](https://github.com/Vyp3er/Kelter/blob/main/INSTALLATION.md) · [Quellcode](https://github.com/Vyp3er/Kelter)
+
+## DropConvert
+
+**Dateien umwandeln, verkleinern und Links laden, alles auf deinem Mac.** Dateien ins Fenster ziehen, Zielformat wählen, fertig. DropConvert bietet nur passende Formate an und legt das Ergebnis in Downloads, ohne je etwas zu überschreiben.
+
+- **Audio, Video, Bilder, Dokumente:** MP3, M4A, FLAC, MP4, MOV, GIF, JPG, HEIC, WebP, PDF und mehr, mit Hardware-Encoder und ohne Qualitätsverlust, wo es geht
+- **Links:** YouTube und andere Seiten als MP4 (läuft in QuickTime und auf dem iPhone) oder als MP3 mit Titel und Cover, Qualität wählbar
+- **Verkleinern:** Voreinstellungen für WhatsApp und Mail (≤ 25 MB), Wunschgröße in MB, Bilder nach Größe und Qualität
+- **Überall dabei:** Finder-Rechtsklick, Kurzbefehle, Terminal-Befehl `dropconvert` und MacBuddy
+
+Arbeitet mit ffmpeg und yt-dlp, die das Installationsskript beim Bauen aus den offiziellen Quellen lädt und prüft (rund 250 MB). Kein Konto, keine Telemetrie; ins Netz geht DropConvert nur für Link-Downloads und das Update von yt-dlp. Noch nicht im Installationsskript: DropConvert baust du mit Xcode selbst, die Anleitung erklärt die zwei Befehle.
+
+[Installationsanleitung](https://github.com/Vyp3er/DropConvert/blob/main/INSTALLATION.md) · [Quellcode](https://github.com/Vyp3er/DropConvert)
 
 ---
 
